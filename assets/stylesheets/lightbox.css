@@ -1,0 +1,8 @@
+img.lightbox {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+img.lightbox:hover {
+  transform: scale(1.02);
+}
+
