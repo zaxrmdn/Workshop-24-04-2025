@@ -12,19 +12,25 @@
         <meta name="author" content="Rama">
       
       
+        <link rel="canonical" href="https://github.com/zaxrmdn/Workshop-24-04-2025/file-sharing/">
       
       
+        <link rel="prev" href="../install-active-directory/">
       
-      <link rel="icon" href="/zaxrmdn/Workshop-24-04-2025/assets/images/favicon.png">
+      
+        <link rel="next" href="../remote-access/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.0">
     
     
       
-        <title>Workshop Belajar Windows Server Praktis</title>
+        <title>File Sharing - Workshop Belajar Windows Server Praktis</title>
       
     
     
-      <link rel="stylesheet" href="/zaxrmdn/Workshop-24-04-2025/assets/stylesheets/main.9f615399.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.9f615399.min.css">
       
       
 
@@ -43,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("/zaxrmdn/Workshop-24-04-2025/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,6 +70,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#konfigurasi-file-sharing" class="md-skip">
+          Lewati ke isi
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -74,7 +85,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/zaxrmdn/Workshop-24-04-2025/." title="Workshop Belajar Windows Server Praktis" class="md-header__button md-logo" aria-label="Workshop Belajar Windows Server Praktis" data-md-component="logo">
+    <a href=".." title="Workshop Belajar Windows Server Praktis" class="md-header__button md-logo" aria-label="Workshop Belajar Windows Server Praktis" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -94,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              File Sharing
             
           </span>
         </div>
@@ -174,7 +185,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -193,7 +204,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="/zaxrmdn/Workshop-24-04-2025/install-windows-server/" class="md-tabs__link">
+        <a href="../install-windows-server/" class="md-tabs__link">
           
   
   Instalasi
@@ -207,11 +218,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="/zaxrmdn/Workshop-24-04-2025/create-users-groups.md" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../create-users-groups.md" class="md-tabs__link">
           
   
   Konfigurasi
@@ -246,7 +259,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/zaxrmdn/Workshop-24-04-2025/." title="Workshop Belajar Windows Server Praktis" class="md-nav__button md-logo" aria-label="Workshop Belajar Windows Server Praktis" data-md-component="logo">
+    <a href=".." title="Workshop Belajar Windows Server Praktis" class="md-nav__button md-logo" aria-label="Workshop Belajar Windows Server Praktis" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -275,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -328,7 +341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/install-windows-server/" class="md-nav__link">
+      <a href="../install-windows-server/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -348,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/install-active-directory/" class="md-nav__link">
+      <a href="../install-active-directory/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -373,17 +386,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
@@ -396,7 +411,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Konfigurasi
@@ -409,7 +424,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/create-users-groups.md" class="md-nav__link">
+      <a href="../create-users-groups.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -427,9 +442,29 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/file-sharing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    File Sharing
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -438,6 +473,40 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#langkah" class="md-nav__link">
+    Langkah
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#konfigurasi-ntfs-permissions" class="md-nav__link">
+    Konfigurasi NTFS Permissions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -449,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/zaxrmdn/Workshop-24-04-2025/remote-access/" class="md-nav__link">
+      <a href="../remote-access/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -482,8 +551,39 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+  
+    <a href="https://github.com/zaxrmdn/Workshop-24-04-2025.git/edit/main/docs/file-sharing.md" title="Ubah halaman ini" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+
+
+<hr />
+<h1 id="konfigurasi-file-sharing">📂 Konfigurasi File Sharing<a class="headerlink" href="#konfigurasi-file-sharing" title="Permanent link">&para;</a></h1>
+<h2 id="langkah">Langkah<a class="headerlink" href="#langkah" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Buat folder, misalnya <code>D:\Shared</code> </li>
+<li>Klik kanan folder → Properties → Sharing → Advanced Sharing</li>
+<li>Centang <code>Share this folder</code>, beri nama share</li>
+<li>Klik <code>Permissions</code>, atur sesuai kebutuhan</li>
+</ol>
+<h2 id="konfigurasi-ntfs-permissions">Konfigurasi NTFS Permissions<a class="headerlink" href="#konfigurasi-ntfs-permissions" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Masuk tab Security</li>
+<li>Klik Edit → Add → masukkan nama grup</li>
+<li>Atur akses: Read, Modify, Full Control</li>
+</ol>
+<hr />
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -517,10 +617,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "/zaxrmdn/Workshop-24-04-2025/", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "toc.integrate", "content.code.copy", "content.action.edit", "content.tabs.link", "search.suggest", "search.highlight"], "search": "/zaxrmdn/Workshop-24-04-2025/assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "toc.integrate", "content.code.copy", "content.action.edit", "content.tabs.link", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.a264c092.min.js", "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}}</script>
     
     
-      <script src="/zaxrmdn/Workshop-24-04-2025/assets/javascripts/bundle.4e0fa4ba.min.js"></script>
+      <script src="../assets/javascripts/bundle.4e0fa4ba.min.js"></script>
       
     
   </body>
